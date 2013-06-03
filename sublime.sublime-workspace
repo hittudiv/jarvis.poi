@@ -1,0 +1,1971 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"so",
+				"source"
+			],
+			[
+				"source",
+				"source_uid"
+			],
+			[
+				"sou",
+				"source_uid"
+			],
+			[
+				"lis",
+				"list_price"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"brea",
+				"bread_crumb"
+			],
+			[
+				"nodes",
+				"nodes_10"
+			],
+			[
+				"bread",
+				"breadCrumbStrings"
+			],
+			[
+				"b",
+				"BrowseNodesArray"
+			],
+			[
+				"Bro",
+				"BrowseNodesArray"
+			],
+			[
+				"respo",
+				"responseGroup"
+			],
+			[
+				"clea",
+				"cleaned_params"
+			],
+			[
+				"cs",
+				"csv_nodes"
+			],
+			[
+				"op",
+				"optionalParameters"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"k",
+				"key"
+			],
+			[
+				"all",
+				"all_asins"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"top",
+				"topitem"
+			],
+			[
+				"asin_c",
+				"asin_chunk"
+			],
+			[
+				"asi",
+				"asin_chunks"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"as",
+				"asins_found"
+			],
+			[
+				"ite",
+				"item"
+			],
+			[
+				"arra",
+				"array_chunk"
+			],
+			[
+				"asin",
+				"asins_not_found"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"item",
+				"item_attributes"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"bRO",
+				"BrowseNodes"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/mobile_app/server/capshop/api/modules/auth.php",
+			"settings":
+			{
+				"buffer_size": 11379,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/mobile_app/server/capshop/api/models/User.php",
+			"settings":
+			{
+				"buffer_size": 5046,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/mobile_app/server/capshop/api/Router.php",
+			"settings":
+			{
+				"buffer_size": 2375,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/mobile_app/server/capshop/api/index.php",
+			"settings":
+			{
+				"buffer_size": 36,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/mobile_app/server/capshop/api/modules/itemSearch.php",
+			"settings":
+			{
+				"buffer_size": 11110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/mobile_app/server/capshop/api/models/Product.php",
+			"settings":
+			{
+				"buffer_size": 20600,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "select * from db_amazon_nodes where amazon_root_node in (select n.amazon_node_id from user_shopping_interests u,db_amazon_nodes n where u.user_id=4 and n.id=u.node_id ) and amazon_node_id!=amazon_root_node order by RAND() limit 5",
+			"settings":
+			{
+				"buffer_size": 229,
+				"line_ending": "Unix",
+				"name": "select * from db_amazon_nodes where amazon_root_no"
+			}
+		},
+		{
+			"file": "/var/www/mobile_app/server/capshop/api/models/Category.php",
+			"settings":
+			{
+				"buffer_size": 7991,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/mobile_app/server/capshop/api/modules/Test.php",
+			"settings":
+			{
+				"buffer_size": 7400,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/mobile_app/server/capshop/api/models/TestModel.php",
+			"settings":
+			{
+				"buffer_size": 2967,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/mobile_app/server/capshop/api/modules/ManageBags.php",
+			"settings":
+			{
+				"buffer_size": 7093,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/mobile_app/server/misc/sql_scripts/clear_data_on_server.sql",
+			"settings":
+			{
+				"buffer_size": 288,
+				"line_ending": "Unix",
+				"name": "truncate bags; truncate bag_data; truncate db_prod"
+			}
+		},
+		{
+			"file": "/var/www/mobile_app/server/capshop/api/models/Bag.php",
+			"settings":
+			{
+				"buffer_size": 4563,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/mobile_app/server/capshop/api/lib/helpers/AmazonHelper.php",
+			"settings":
+			{
+				"buffer_size": 5552,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/mobile_app/server/capshop/api/Config.php",
+			"settings":
+			{
+				"buffer_size": 2964,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/mobile_app/server/capshop/api/modules/ManageProducts.php",
+			"settings":
+			{
+				"buffer_size": 22601,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"setter",
+				"PHP: Generate Getters and Setters"
+			],
+			[
+				"sette",
+				"Generate Setter for ..."
+			],
+			[
+				"get",
+				"PHP: Generate Setters"
+			],
+			[
+				"json",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"js",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/mobile_app/server/capshop/api/modules/ManageProducts.php",
+		"/var/www/mobile_app/server/capshop/api/Config.php",
+		"/var/www/mobile_app/server/capshop/api/models/Category.php",
+		"/var/www/mobile_app/server/capshop/api/lib/helpers/AmazonHelper.php",
+		"/var/www/shoppo/index.html",
+		"/var/www/mobile_app/server/capshop/api/modules/Brands.php",
+		"/var/www/mobile_app/server/capshop/api/models/baseModel.php",
+		"/var/www/mobile_app/server/capshop/api/models/Brand.php",
+		"/var/www/mobile_app/server/capshop/samples/test.php",
+		"/var/www/mobile_app/server/capshop/api/lib/facebook/src/facebook.php",
+		"/home/hittu/Desktop/test.py",
+		"/var/www/mobile_app/server/capshop/api/modules/Test.php",
+		"/var/www/mobile_app/server/capshop/api/lib/amazon/lib/AmazonECS.class.php",
+		"/var/www/mobile_app/server/capshop/api/models/Product.php",
+		"/home/hittu/Desktop/Untitled Document",
+		"/var/www/mobile_app/server/capshop/api/modules/baseModule.php",
+		"/var/www/shoppo/CSS/shoppo-style.css",
+		"/var/www/mobile_app/server/capshop/api/lib/facebook/src/base_facebook.php",
+		"/var/www/mobile_app/server/capshop/api/modules/itemSearch.php",
+		"/var/www/mobile_app/server/capshop/api/modules/Offers.php",
+		"/var/www/mobile_app/server/capshop/samples/sampleItemLookup.php",
+		"/var/www/mobile_app/server/capshop/api/models/BagData.php",
+		"/var/www/mobile_app/server/capshop/api/modules/ManageBags.php",
+		"/var/www/mobile_app/server/capshop/api/modules/auth.php",
+		"/var/www/mobile_app/server/capshop/api/modules/ManageCategories.php",
+		"/home/hittu/.config/sublime-text-2/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+		"/home/hittu/.config/sublime-text-2/Packages/User/Pretty JSON.sublime-settings",
+		"/home/hittu/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/var/www/mobile_app/server/capshop/samples/sampleBrowseNode.php",
+		"/var/www/mobile_app/server/capshop/samples/sampleAssociateTag.php",
+		"/home/hittu/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/hittu/.config/sublime-text-2/Packages/PHP Built-in WebServer/PHP Built-in WebServer.sublime-settings",
+		"/home/hittu/.config/sublime-text-2/Packages/PHP Getters and Setters/php-getters-setters.sublime-settings",
+		"/var/www/mobile_app/server/capshop/api/models/AmazonNodes.php",
+		"/home/hittu/git/cms/cms/settings.py"
+	],
+	"find":
+	{
+		"height": 49.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"offli",
+			"get_bags_by_user",
+			"get_items_in_bag",
+			"item_",
+			"item_attributes",
+			"add_asin_to_bag",
+			"uniqueid",
+			"cacheProduct",
+			"save()",
+			"insert",
+			"setba",
+			"new Product",
+			"Product",
+			"cacheAsins",
+			"postal_code",
+			"product_id_src",
+			"fromRetailigence",
+			"						",
+			"$item->address",
+			"fromm",
+			"searc",
+			"frommil",
+			"fromMilo\nfromMilo",
+			"fromMilo",
+			"mil",
+			"getAmazonNodesFromMyCategories",
+			"2625373011",
+			"getAmazonTopSellers",
+			"gettrend",
+			"166220011",
+			"insertBreadCrumb",
+			"getBreadCrumbString",
+			"TestModel",
+			"setBreadCrumb",
+			"getBreadCrumbString",
+			"saveBreadCrumb",
+			"setBreadCrumb",
+			"saveBreadCrumb",
+			"insertBreadCrumb",
+			"saveBreadCrumb",
+			"amazonEcs",
+			"small",
+			"getAmazonNodesFromMyCategories",
+			"group_concat",
+			"getAmazonNodesFromMyCategories",
+			"getAmazonNodesFromMainCategories",
+			"mys",
+			"die",
+			"print_r",
+			"getAmazonNodesFromMainCategories",
+			"getTre",
+			"getBreadCrumbStringforProduct",
+			"saveBreadCrumbforProduct",
+			"getBreadCrumbStringforProduct",
+			"saveBreadCrumbforProduct",
+			"getBreadCrumbStringforProduct",
+			"getBreadCrumbString",
+			"getBreadCrumbStringforProduct",
+			"getBreadCrumbString",
+			"getBreadCrumbString\n",
+			"saveBreadCrumb",
+			"getBreadCrumbString",
+			"die",
+			"getBreadCrumbString",
+			"saveBreadCrumb",
+			"responseGroup",
+			"cacheAsins",
+			"getProductFromAsins",
+			"bread",
+			"gettre",
+			"bre",
+			"BreadCrumb",
+			"setBreadCrumb",
+			"bread_crumb",
+			"getBreadCrumbString",
+			"40",
+			") limit 40",
+			"saveBreadCrumb",
+			"getBreadCrumbString",
+			"cacheAsins",
+			"getBreadCrumbString",
+			"getBreadCrumbString\ngetBreadCrumbString",
+			"getBreadCrumbString",
+			"saveBreadCrumb",
+			"insertBreadCrumb",
+			"save",
+			"delayed",
+			"insert delayed",
+			"save",
+			"brea",
+			"print_r",
+			"source",
+			"responseGroup",
+			"Offersummary",
+			"getAmazonTopSellers",
+			"invoke",
+			"png",
+			"name",
+			"getuser",
+			"createUserWithSocialData",
+			"getSocialUser",
+			"d.k='facebook' and d.k1='page' ",
+			"get_brands_user_like",
+			"list",
+			"Reviews,Small",
+			"customer_reviews_url",
+			"url_config",
+			"config",
+			"getAmazonReviewsUrl",
+			"delete",
+			"remove",
+			"managebra",
+			"json",
+			"code",
+			"format",
+			"fromMilo",
+			"getAmazonNodesFromMainCategories",
+			"getAmazonNodesFromMyCategories",
+			"getAmazonTopSellers",
+			"\n        ",
+			"persona",
+			"getProductFromAsins",
+			"getAmazonTopSellers",
+			"unset",
+			"unse",
+			"getAmazonTopSellers",
+			"pag",
+			"getAmazonTopSellers"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			",",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 15,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/mobile_app/server/capshop/api/modules/auth.php",
+					"settings":
+					{
+						"buffer_size": 11379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10340,
+								10340
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6591.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/mobile_app/server/capshop/api/models/User.php",
+					"settings":
+					{
+						"buffer_size": 5046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2240,
+								2240
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2622.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/mobile_app/server/capshop/api/Router.php",
+					"settings":
+					{
+						"buffer_size": 2375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								806,
+								806
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 207.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/mobile_app/server/capshop/api/index.php",
+					"settings":
+					{
+						"buffer_size": 36,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/var/www/mobile_app/server/capshop/api/modules/itemSearch.php",
+					"settings":
+					{
+						"buffer_size": 11110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1925,
+								1925
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6840.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/var/www/mobile_app/server/capshop/api/models/Product.php",
+					"settings":
+					{
+						"buffer_size": 20600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15431,
+								15431
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 8311.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "select * from db_amazon_nodes where amazon_root_no",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/var/www/mobile_app/server/capshop/api/models/Category.php",
+					"settings":
+					{
+						"buffer_size": 7991,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6402,
+								6402
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3376.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/var/www/mobile_app/server/capshop/api/modules/Test.php",
+					"settings":
+					{
+						"buffer_size": 7400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1724,
+								1724
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 614.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/var/www/mobile_app/server/capshop/api/models/TestModel.php",
+					"settings":
+					{
+						"buffer_size": 2967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2588,
+								2588
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1507.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/var/www/mobile_app/server/capshop/api/modules/ManageBags.php",
+					"settings":
+					{
+						"buffer_size": 7093,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2222,
+								2222
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1425.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/var/www/mobile_app/server/misc/sql_scripts/clear_data_on_server.sql",
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								288,
+								288
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "truncate bags; truncate bag_data; truncate db_prod",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/SQL/SQL.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/var/www/mobile_app/server/capshop/api/models/Bag.php",
+					"settings":
+					{
+						"buffer_size": 4563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2322,
+								2322
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1623.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/var/www/mobile_app/server/capshop/api/lib/helpers/AmazonHelper.php",
+					"settings":
+					{
+						"buffer_size": 5552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4915,
+								4915
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1254.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/var/www/mobile_app/server/capshop/api/Config.php",
+					"settings":
+					{
+						"buffer_size": 2964,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								505,
+								505
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/var/www/mobile_app/server/capshop/api/modules/ManageProducts.php",
+					"settings":
+					{
+						"buffer_size": 22601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6413,
+								6413
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3152.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"itemsea",
+				"api/modules/itemSearch.php"
+			],
+			[
+				"managep",
+				"api/modules/ManageProducts.php"
+			],
+			[
+				"conf",
+				"api/Config.php"
+			],
+			[
+				"ama",
+				"api/lib/helpers/AmazonHelper.php"
+			],
+			[
+				"ba",
+				"api/models/Bag.php"
+			],
+			[
+				"manage",
+				"api/modules/ManageBags.php"
+			],
+			[
+				"items",
+				"api/modules/itemSearch.php"
+			],
+			[
+				"",
+				"api/modules/ManageProducts.php"
+			],
+			[
+				"co",
+				"api/Config.php"
+			],
+			[
+				"cate",
+				"api/models/Category.php"
+			],
+			[
+				"mana",
+				"api/modules/ManageProducts.php"
+			],
+			[
+				"produc",
+				"api/models/Product.php"
+			],
+			[
+				"test",
+				"api/modules/Test.php"
+			],
+			[
+				"cater",
+				"api/models/Category.php"
+			],
+			[
+				"brand",
+				"api/models/Brand.php"
+			],
+			[
+				"faceboo",
+				"api/lib/facebook/src/facebook.php"
+			],
+			[
+				"rout",
+				"api/Router.php"
+			],
+			[
+				"brands",
+				"api/modules/Brands.php"
+			],
+			[
+				"auth",
+				"api/modules/auth.php"
+			],
+			[
+				"mode",
+				"api/models/baseModel.php"
+			],
+			[
+				"product",
+				"api/models/Product.php"
+			],
+			[
+				"tes",
+				"api/modules/Test.php"
+			],
+			[
+				"basemo",
+				"api/modules/baseModule.php"
+			],
+			[
+				"inde",
+				"api/index.php"
+			],
+			[
+				"basem",
+				"api/models/baseModel.php"
+			],
+			[
+				"basemodul",
+				"api/modules/baseModule.php"
+			],
+			[
+				"route",
+				"api/Router.php"
+			],
+			[
+				"base_facebook",
+				"api/lib/facebook/src/base_facebook.php"
+			],
+			[
+				"face",
+				"api/lib/facebook/src/facebook.php"
+			],
+			[
+				"user",
+				"api/models/User.php"
+			],
+			[
+				"brand.",
+				"api/models/Brand.php"
+			],
+			[
+				"products",
+				"api/modules/ManageProducts.php"
+			],
+			[
+				"con",
+				"api/Config.php"
+			],
+			[
+				"product.",
+				"api/models/Product.php"
+			],
+			[
+				"product.php",
+				"api/models/Product.php"
+			],
+			[
+				"offers",
+				"api/modules/Offers.php"
+			],
+			[
+				"base",
+				"api/models/baseModel.php"
+			],
+			[
+				"managebags",
+				"api/modules/ManageBags.php"
+			],
+			[
+				"managepro",
+				"api/modules/ManageProducts.php"
+			],
+			[
+				"config",
+				"api/Config.php"
+			],
+			[
+				"bran",
+				"api/models/Brand.php"
+			],
+			[
+				"managepr",
+				"api/modules/ManageProducts.php"
+			],
+			[
+				"prod",
+				"api/models/Product.php"
+			],
+			[
+				"produ",
+				"api/models/Product.php"
+			],
+			[
+				"offer",
+				"api/modules/Offers.php"
+			],
+			[
+				"sample",
+				"samples/sampleItemLookup.php"
+			],
+			[
+				"sam",
+				"samples/sampleBrowseNode.php"
+			],
+			[
+				"sa",
+				"samples/sampleAssociateTag.php"
+			],
+			[
+				"bagdata",
+				"api/models/BagData.php"
+			],
+			[
+				"bagda",
+				"api/models/BagData.php"
+			],
+			[
+				"manageba",
+				"api/modules/ManageBags.php"
+			],
+			[
+				"pro",
+				"api/models/Product.php"
+			],
+			[
+				"category",
+				"api/models/Category.php"
+			],
+			[
+				"amazonnodes",
+				"api/models/AmazonNodes.php"
+			],
+			[
+				"off",
+				"api/modules/Offers.php"
+			],
+			[
+				"au",
+				"api/modules/auth.php"
+			],
+			[
+				"manag",
+				"api/modules/ManageCategories.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/hittu/ide/sublime-workspace/cms.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true
+}
