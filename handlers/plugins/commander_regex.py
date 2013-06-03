@@ -5,6 +5,8 @@ import re
 from configs.strings import strings
 import subprocess
 import time
+import requests
+import json
 
 class commander:
 
@@ -69,8 +71,30 @@ class commander:
 		return strings().not_permitted,None,None 
 
 
+	def command_004_default(self, user, message, args):
+		'''(jarvis )?(please download|download)( +(.*))?$(?i)'''
+		show = args[0]
+		download_string = args[2]
+		jid = user.getStripped()
+		if jid in self.BOT_ADMIN:
+			#put a logger in place?
+			print jid, " ----------> is downloading something ", download_string
+			result=requests.get('http://apify.ifc0nfig.com/tpb/search?id='+download_string)
+			json_data=json.loads(result.content)
+			if(len(json_data) is 0):
+				return 'No results found :( check for typos please?', None, None
+			item=json_data[0]
+			return_string = "Started download of '"+item['name']+"' with size "+item['size']+" uploaded "+item['uploaded']+"."
+
+			cmd="transmission-cli '"+item['magnet']+"'"
+			p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+			
+			return return_string,None, None
+
+		return strings().not_permitted, None, None
+		# http://apify.ifc0nfig.com/tpb/search?id=
+
 	def command_100_default(self, user, message, args):
 		'''.*?(?s)(?m)'''
 		return  time.strftime("%Y-%m-%d %a %H:%M:%S", time.localtime()), None, None
-
 	
