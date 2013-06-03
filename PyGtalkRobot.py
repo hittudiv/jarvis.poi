@@ -137,13 +137,11 @@ class GtalkRobot:
 		
 
 	def presenceHandler(self, conn, presence):
-		print "ydfdjjfjfdg"
 		#print_info(presence)
 		if(configs().prod==0):        # so that it can load if any changes are there
 			reload(all_handlers)
 
 		if presence:
-			print presence
 			if presence.getType()=='subscribe':
 				#auto add friends.. Keep some checking here, and LOG!
 				jid = presence.getFrom().getStripped()
@@ -179,14 +177,17 @@ class GtalkRobot:
 		self.conn=xmpp.Client(server, debug=self.debug)
 		#talk.google.com
 		print strings().connecting_string%(self.server_host,self.server_port)
+		if(configs().prod==1):
+			conres=self.conn.connect( server=(self.server_host, self.server_port))
+		else:
+			conres=self.conn.connect( server=(self.server_host, self.server_port),secure=0 )
 
-		conres=self.conn.connect( server=(self.server_host, self.server_port),secure=0 )
 		if not conres:
 			print strings().cannot_connect%server
 			sys.exit(1)
 		if conres<>'tls':
 			print strings().not_secure_connection
-		
+		print user,password
 		authres=self.conn.auth(user, password)
 		if not authres:
 			print strings().wrong_password

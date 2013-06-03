@@ -7,23 +7,23 @@ class configs(object):
 
 
 	#all variables here
-	prod=0
+	prod=1
 	# debug		=	['nodebuilder', 'dispatcher', 'gen_auth', 'SASL_auth', 'bind', 'socket', 'CONNECTproxy', 'TLS', 'roster', 'browser', 'ibb']
 	debug		=	[]
 	settings = {}
 	prod_settings = {
 		"server" 			:	"talk.google.com",
 		"port"				:	443,
-		"BOT_GTALK_USER" 	: 'jarvis.poi@gmail.com',
-		"BOT_GTALK_PASS" 	: 'cheater1143',
-		"BOT_ADMIN" 		: ['hittudiv@gmail.com'],
+		"BOT_GTALK_USER" 	: 	'jarvis.poi@gmail.com',
+		"BOT_GTALK_PASS" 	: 	'cheater1143',
+		"BOT_ADMIN" 		: 	['hittudiv@gmail.com'],
 	}
 	dev_settings =	{
 		"server" 			:	"hittudiv.com",
 		"port"				:	5222,
-		"BOT_GTALK_USER" 	: 'jarvis.poi@hittudiv.com',
-		"BOT_GTALK_PASS" 	: 'cheater1143',
-		"BOT_ADMIN" 		: ['hittudiv@hittudiv.com'],
+		"BOT_GTALK_USER" 	: 	'jarvis.poi@hittudiv.com',
+		"BOT_GTALK_PASS" 	: 	'cheater1143',
+		"BOT_ADMIN" 		: 	['hittudiv@hittudiv.com'],
 	}
 
 
